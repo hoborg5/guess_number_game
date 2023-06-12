@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/retro-new-version" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Guess number  game</title>
 </head>
 <body>
+    <header class="head">
+        <h1>Guess my number!</h1>
+        <p>(from 1 to 20)</p>
+        <button class="again-btn">Again!</button>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess" max="20" min="1"/>
+            <button class="check">Check!</button>
+        </section>
+        <section class="right">
+            <p class="label-message">Start guessing...</p>
+            <p class="label-score">✨ Score: <span class="score">20</span></p>
+            <p class="lcabel-highscore">🎉 Highscore: <span class="highscore">0</span></p>
+        </section>
+
+    </main>
     
+
+
 </body>
 </html>
