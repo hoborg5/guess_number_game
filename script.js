@@ -45,6 +45,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".score").textContent = score;
     secret_number = numberDrawing();
     document.querySelector(".highscore").textContent = highScore;
+    document.querySelector(".guess").value = ""
     messageDisplay("");
   });
 });
